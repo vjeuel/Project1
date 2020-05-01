@@ -11,6 +11,6 @@ Project Description- An application that surfs the web for healthy home-made rec
 
 As a user,
 
-	I want to make healthy meals, 
+I want to make healthy meals, 
 
-	So that I can eat well throughout the Coronavirus quarantine. 
+So that I can eat well throughout the Coronavirus quarantine. 
