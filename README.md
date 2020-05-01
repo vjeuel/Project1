@@ -1,3 +1,16 @@
 # Project1
 
-https://docs.google.com/document/d/1v3wPrvKpzdSetuNMf59eUmAag_IbTU4bui70AZmRhKI/edit
+Team Navy
+Project 1
+
+Project Title- Healthy Quarantine Recipes 
+
+
+Project Description- An application that surfs the web for healthy home-made recipes for your COVID-19 quarantine. 
+
+
+As a user,
+
+	I want to make healthy meals, 
+
+	So that I can eat well throughout the Coronavirus quarantine. 
