@@ -1,0 +1,62 @@
+html {
+   font-size: 10px;
+}
+
+h1, h2, h3, h4 {
+   font-family: 'Merriweather', serif;;
+}
+
+p, a {
+   font-family: 'Roboto Slab', serif;
+   font-size: 2.5rem;
+}
+
+
+nav {
+   background-color: #D90416;
+   color: #F2F2F2;
+}
+
+.brand-logo img {
+   width: 300px;
+   height: 100%;
+}
+
+
+.page-footer {
+   background-color: #D90416;
+   color: #F2F2F2;
+}
+
+
+
+
+
+
+/* FONTS */
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;
+*/
+
+/* COLORS */
+/* Color Theme Swatches in Hex */
+.Row-of-ice-cream-scoops-1-hex { color: #D90416; }
+.Row-of-ice-cream-scoops-2-hex { color: #F2B705; }
+.Row-of-ice-cream-scoops-3-hex { color: #D98E04; }
+.Row-of-ice-cream-scoops-4-hex { color: #F25C05; }
+.Row-of-ice-cream-scoops-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Row-of-ice-cream-scoops-1-rgba { color: rgba(216, 4, 22, 1); }
+.Row-of-ice-cream-scoops-2-rgba { color: rgba(242, 182, 4, 1); }
+.Row-of-ice-cream-scoops-3-rgba { color: rgba(216, 142, 4, 1); }
+.Row-of-ice-cream-scoops-4-rgba { color: rgba(242, 91, 4, 1); }
+.Row-of-ice-cream-scoops-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Row-of-ice-cream-scoops-1-hsla { color: hsla(354, 96, 43, 1); }
+.Row-of-ice-cream-scoops-2-hsla { color: hsla(45, 96, 48, 1); }
+.Row-of-ice-cream-scoops-3-hsla { color: hsla(39, 96, 43, 1); }
+.Row-of-ice-cream-scoops-4-hsla { color: hsla(22, 96, 48, 1); }
+.Row-of-ice-cream-scoops-5-hsla { color: hsla(0, 0, 95, 1); }
