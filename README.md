@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Project1
 
 Team Navy
@@ -15,6 +15,5 @@ As a user,
 I want to make healthy meals, 
 
 So that I can eat well throughout the Coronavirus quarantine. 
-=======
 # Project1
->>>>>>> master
+
