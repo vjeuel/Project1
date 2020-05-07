@@ -4,84 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="text/JavaScript" href="javascript/recipe.js">
-    <link rel="text/JavaScript" href="javascript/news.js">
-    <link rel="text/JavaScript" href="javascript/drink.js">
+    <script type="text/javascript" src="javascript/recipe.js"></script>
+    <script type="text/javascript" src="javascript/news.js"></script>
+    <script type="text/javascript" src="javascript/drink.js"></script>
 
     <title>Hungry at Home</title>
 </head>
 
 <body>
-   <!-- navbar below -->
-   <nav>
-      <div class="nav-wrapper">
-         <a href="#" class="brand-logo">
-            <img src="./images/hungry-logo.png" alt="">
-         </a>
-         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">drinks</a></li>
-            <li><a href="#">recipes</a></li>
-            <li><a href="#">groceries</a></li>
-            <li><a href="#">news</a></li>
-         </ul>
-      </div>
-   </nav>
+    <!-- navbar below -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+                <img src="./images/hungry-logo.png" alt="">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">drinks</a></li>
+                <li><a href="#">recipes</a></li>
+                <li><a href="#">groceries</a></li>
+                <li><a href="#">news</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- grid layout created below -->
     <main class="row">
-      <div id="col1" class="col s12 m3">
-      </div>
-      <div id="col2" class="col s12 m6">
-         <form>
-        <div class="input-field">
-          <input id="search" type="search" required>
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
+        <div id="col1" class="col s12 m3">
         </div>
-      </form>
-      </div>
-      <div id="col3" class="col s12 m3">
-      </div>
+        <div id="col2" class="col s12 m6">
+        </div>
+        <!-- Drinks -->
+        <div id="col3" class="col s12 m3">
+            <input type="text" class="drink" id="search-drink" value="Drinks">
+            <button id="submit-d">search</button>
+        </div>
     </main>
-    
+
     <!-- footer below -->
-   <footer class="page-footer">
-      <div class="row">
-         <div class="col s6 m8">
+    <footer class="page-footer">
+        <div class="row">
+            <div class="col s6 m8">
 
-         </div>
-         <div class="col s6 m4">
-            <ul class="footer">
-               <li><a href="#">drinks</a></li>
-               <li><a href="#">recipes</a></li>
-               <li><a href="#">groceries</a></li>
-               <li><a href="#">news</a></li>
-         </ul>
-         </div>
-      </div>
-      </div>
+            </div>
+            <div class="col s6 m4">
+                <ul class="footer">
+                    <li><a href="#">drinks</a></li>
+                    <li><a href="#">recipes</a></li>
+                    <li><a href="#">groceries</a></li>
+                    <li><a href="#">news</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
 
-      <div id="map"></div>
-         <script>
-         var map;
-         function initMap() {
-         map = new google.maps.Map(document.getElementById('map'), {
-         center: { lat: -34.397, lng: 150.644 },
-         zoom: 8
-         });
-         }
-         </script>
-      <div class="footer-copyright">
-      <div class="container">
-         © 2020 Copyright Text
-         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-   </footer>
+        <div id="map"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: -34.397, lng: 150.644 },
+                    zoom: 8
+                });
+            }
+        </script>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+    </footer>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&libraries=places"></script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&callback=initMap"
         async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
