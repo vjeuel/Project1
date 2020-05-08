@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"
@@ -17,6 +16,7 @@
     <script type="text/javascript" src="javascript/news.js"></script>
     <script type="text/javascript" src="javascript/drink.js"></script>
 
+<!-- >>>>>>> master -->
    <title>Hungry at Home</title>
 </head>
 
@@ -45,8 +45,14 @@
         </div>
         <!-- Drinks -->
         <div id="col3" class="col s12 m3">
-            <input type="text" class="drink" id="search-drink" value="Drinks">
-            <button id="submit-d">search</button>
+           <h3>Quick drink generator!</h3>
+           <form id="search-drink" action="">
+              <input id="input-drink" type="text" class="drink" value="Drinks" placeholder="your favorite drink">
+              <button id="submit-d" type="submit">search</button>
+            </form>
+            <div id="user-drink">
+            </div>
+<!-- >>>>>>> master -->
         </div>
     </main>
 
@@ -86,8 +92,8 @@
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&libraries=places"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&callback=initMap"
-        async defer></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&callback=initMap"
+        async defer></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
