@@ -36,18 +36,18 @@ nav {
 
 /***************** MAIN *****************/
 #col1 {
-   background-color: whitesmoke;
    height: 50rem;
+   padding: 2rem;
 }
 
 #col2 {
-   background-color: #f2f2f2;
    height: 50rem;
+   padding: 2rem;
 }
 
 #col3 {
-   background-color: whitesmoke;
    height: 50rem;
+   padding: 2rem;
 }
 
 
