@@ -1,13 +1,13 @@
 $(document).ready(function () {
+   chooseDrink("vodka");
    
-   function chooseDrink() {
-      var drink = $("#input-drink").val();
+   function chooseDrink(alcohol) {
 
       $("#user-drink").empty();
       $("#input-drink").val("");
       
       $.ajax({
-         url: "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" + drink,
+         url: "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" + alcohol,
          method: "GET"
       }).then(function (drinksResponse) {
          
@@ -66,13 +66,14 @@ $(document).ready(function () {
             console.log(drinksResponse);
          };
       });
+
+      // Search button click
+        $("#search-drink").on("submit", function (event) {
+           var alcohol = $("#input-drink").val();
+           event.preventDefault()
+           chooseDrink(alcohol);
+        });
    };
    
    
- // Search button click
-   $("#search-drink").on("submit", function (event) {
-      event.preventDefault()
-      console.log("test");
-      chooseDrink();
-   });
 });

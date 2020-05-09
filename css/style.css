@@ -17,7 +17,7 @@ nav {
    height: 8rem;
    background-color: #D90416;
    color: #F2F2F2;
-   margin-bottom: 4rem;
+   position: fixed;
 }
 
 .brand-logo img {
@@ -37,19 +37,52 @@ nav {
 
 /***************** MAIN *****************/
 #col1 {
+   background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
+   margin-top: 8rem;
 }
 
 #col2 {
    height: auto;
    padding: 2rem;
+   margin-top: 8rem;
 }
 
 #col3 {
+   background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
+   margin-top: 8rem;
 }
+
+/***************** NEWS *****************/
+#news-block {
+   border-bottom: #F2B705 2px solid;
+}
+
+.news-pic {
+   width: 100%;
+}
+
+.news-url {
+   color: #D90416;
+}
+
+/***************** RECIPES *****************/
+#recipe-block {
+   border-bottom: #F2B705 2px solid;
+   padding-bottom: 2rem;
+}
+
+.recipe-pic {
+   width: 100%;
+}
+
+.recipe-link {
+   color: #D90416;
+}
+
 
 /***************** DRINKS *****************/
 #col3 h3 {
