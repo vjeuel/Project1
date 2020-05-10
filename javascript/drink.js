@@ -15,8 +15,6 @@ $(document).ready(function () {
             var drinkBlock = $("<div id='drink-block'>")
             $("#user-drink").append(drinkBlock);
 
-
-
             var ingredArr = [drinksResponse.drinks[i].strIngredient1, drinksResponse.drinks[i].strIngredient2,
                            drinksResponse.drinks[i].strIngredient3, drinksResponse.drinks[i].strIngredient4,
                            drinksResponse.drinks[i].strIngredient5, drinksResponse.drinks[i].strIngredient6,
@@ -55,9 +53,7 @@ $(document).ready(function () {
                ingredArrLoop = ingredArr[i] + ": " + measurArr[i];
                var ingredPara = $("<p>").text(ingredArrLoop);
 
-
                drinkIngred.append(ingredPara);
-
             };
 
             var drinkInstr = $("<p class='drink-instr'>").text(drinksResponse.drinks[i].strInstructions);

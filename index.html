@@ -38,15 +38,17 @@
 
     <!-- grid layout created below -->
     <main class="row">
+        <!-- News -->
         <div id="col1" class="col s12 m3">
             <h3>US health news</h3>
-            <div id="news-block"></div>
+            <div id="news"></div>
         </div>
+        <!-- Recipes -->
         <div id="col2" class="col s12 m6">
             <h3>What are you hungry for?</h3>
             <form id="search-food" action="">
-               <input id="input-food" type="text" class="recipes" placeholder="hungry?">
-               <button id="submit-f" type="submit">search</button>
+               <input id="input-food" type="text" class="recipes" placeholder="pizza">
+               <button id="submit-f" class="btn waves-effect waves light" type="submit">search</button>
             </form>
             <div id="user-food"></div>
         </div>
@@ -54,8 +56,8 @@
         <div id="col3" class="col s12 m3">
            <h3>Quick drink generator!</h3>
            <form id="search-drink" action="">
-              <input id="input-drink" type="text" class="drink" placeholder="your favorite drink">
-              <button id="submit-d" type="submit">search</button>
+              <input id="input-drink" type="text" class="drink" placeholder="vodka">
+              <button id="submit-d" class="btn waves-effect waves light" type="submit">search</button>
             </form>
             <div id="user-drink"></div>
         <!-- >>>>>>> master -->
@@ -64,35 +66,28 @@
     </body>
 
     <!-- footer below -->
-    <footer class="page-footer">
-        <div class="row">
-            <div class="col s6 m8"></div>
-                <div class="col s6 m4">
-                    <ul class="footer">
-                        <li><a href="#col3">drinks</a></li>
-                        <li><a href="#col2">recipes</a></li>
-                        <li><a href="#col1">news</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div id="map"></div>
-        <script>
-            var map;
-            function initMap() {
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: { lat: -34.397, lng: 150.644 },
-                    zoom: 8
-                });
-            }
-        </script>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2020 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
+	<footer class="page-footer">
+		<div class="row">
+			<div id="credits" class="col s6 m8">
+				<p>Credits</p>
+				<p><a href="https://spoonacular.com/food-api">Spoonacular</a></p>
+				<p><a href="https://www.thecocktaildb.com">The Cocktail DB</a></p>
+				<p><a href="http://newsapi.org">News</a></p>
+			</div>
+			<div class="col s6 m4">
+				<ul class="footer">
+				<li><a href="#col3">drinks</a></li>
+				<li><a href="#col2">recipes</a></li>
+				<li><a href="#col1">news</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+					© 2020 Copyright Text
+			</div>
+		</div>
     </footer>
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuo0rTUgiaPbMCt8xpsTfApkdzfgH0y_8&libraries=places"></script>
