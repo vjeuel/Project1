@@ -22,7 +22,12 @@ nav {
    height: 8rem;
    background-color: #D90416;
    color: #F2F2F2;
-   position: fixed;
+   /* position: fixed; */
+}
+
+.nav-wrapper {
+   display: grid;
+   grid-template-columns: 30% 70%;
 }
 
 .brand-logo img {
@@ -40,32 +45,42 @@ nav {
    padding: 0 3rem;
 }
 
+#sidenav-overlay { margin-left: 300px; }
+#sidenav-overlay { z-index: 1; }
+#sidenav-overlay { left: 300px; }
+.navbar-fixed { z-index: 999; }
+
 /***************** MAIN *****************/
+.row {
+   margin-bottom: 0;
+}
 #col1 {
    background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
-   margin-top: 8rem;
 }
 
 #col2 {
    height: auto;
    padding: 2rem;
-   margin-top: 8rem;
 }
 
 #col3 {
    background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
-   margin-top: 8rem;
 }
+
 
 /***************** NEWS *****************/
 #news-block {
    border-bottom: #F2B705 2px solid;
    padding-bottom: 2rem;
 }
+
+#news-block img[src=""] {
+   display: none;
+}  
 
 #news-block:nth-last-child(1) {
    border-bottom: none;
@@ -78,10 +93,12 @@ nav {
 
 .news-pic {
    width: 100%;
+   margin-bottom: 1rem;
 }
 
 .news-url {
-   color: #D90416 !important;
+   color: #D90416;
+   font-size: 1.5rem;
 }
 
 /***************** RECIPES *****************/
@@ -98,6 +115,11 @@ nav {
 #search-food input {
    margin-left: 2rem;
    border-bottom: none;
+}
+
+#search-food input::placeholder {
+   color: #D90416;
+   opacity: 0.25;
 }
 
 #search-food button {
@@ -121,6 +143,7 @@ nav {
 
 .recipe-link {
    color: #D90416;
+   font-size: 1.5rem;
 }
 
 
@@ -140,12 +163,16 @@ nav {
    padding: 0.5rem;
    border: #D90416 solid 2px;
    border-radius: 2rem;
-
 }
 
 #search-drink input {
    margin-left: 2rem;
    border-bottom: none;
+}
+
+#search-drink input::placeholder {
+   color: #D90416;
+   opacity: 0.25;
 }
 
 #search-drink button {
@@ -204,9 +231,8 @@ footer a {
 
 }
 
-
-.social-icons svg {
-   color: #F2F2F2;
+.social-icons img {
+   width: 3rem;
 }
 
 .copyright {
