@@ -3,7 +3,8 @@ html {
 }
 
 h1, h2, h3, h4 {
-   font-family: 'Merriweather', serif;;
+   font-family: 'Merriweather', serif;
+   line-height: 1.5;
 }
 
 p, a {
@@ -162,28 +163,44 @@ nav {
    border-radius: 2rem;
 }
 
+.drink-ingred p {
+   margin: 0;
+}
+
 /***************** FOOTER *****************/
-#credits {
-   padding-left: 5rem;
-}
-
-footer p {
-   font-size: 1.75rem;
-   color: #f2f2f2;
-}
-
-footer a {
-   font-size: 1.75rem;
-   color: #F2B705;
-}
-
-
-
 .page-footer {
    background-color: #D90416;
    color: #F2F2F2;
 }
 
+#credits {
+   padding-left: 5rem;
+}
+
+#credits h3 {
+   font-size: 2.25rem;
+}
+
+footer p {
+   font-size: 1.5rem;
+   color: #f2f2f2;
+}
+
+footer a {
+   font-size: 1.5rem;
+   color: #F2B705;
+   display: block;
+   margin-bottom: 1rem;
+}
+
+.copyright {
+   width: 100%;
+   margin: 0 auto;
+}
+.copyright p {
+   text-align: center;
+   font-size: 1.25rem;
+}
 
 
 
@@ -209,10 +226,3 @@ font-family: 'Merriweather', serif;
 .Row-of-ice-cream-scoops-3-rgba { color: rgba(216, 142, 4, 1); }
 .Row-of-ice-cream-scoops-4-rgba { color: rgba(242, 91, 4, 1); }
 .Row-of-ice-cream-scoops-5-rgba { color: rgba(242, 242, 242, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Row-of-ice-cream-scoops-1-hsla { color: hsla(354, 96, 43, 1); }
-.Row-of-ice-cream-scoops-2-hsla { color: hsla(45, 96, 48, 1); }
-.Row-of-ice-cream-scoops-3-hsla { color: hsla(39, 96, 43, 1); }
-.Row-of-ice-cream-scoops-4-hsla { color: hsla(22, 96, 48, 1); }
-.Row-of-ice-cream-scoops-5-hsla { color: hsla(0, 0, 95, 1); }
