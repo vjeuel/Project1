@@ -78,10 +78,6 @@ nav {
    padding-bottom: 2rem;
 }
 
-#news-block img[src=""] {
-   display: none;
-}  
-
 #news-block:nth-last-child(1) {
    border-bottom: none;
 }
