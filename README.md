@@ -2,12 +2,10 @@
 
 
 # **Healthy Quarantine Recipes**
-
 Find the link for our website [here](https://aresx2009.github.io/Project1/)
 
 
 ## **Project Description**
-  
 Hungry at home provides users the ability to search recipes based on what type of food they have in mind. The website enables users to search their favorite type of alcohol & drink recipes that are generated with the users' favorite alcohol. We decided to include a news section due to the outbreak of Covid-19. There has been a large amount of false information circulating social media & believe that providing reliably sourced news articles would benefit the user.
 
 
