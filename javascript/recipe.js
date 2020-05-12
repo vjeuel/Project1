@@ -14,7 +14,7 @@ $(document).ready(function () {
             var recipeBlock = $("<div id='recipe-block'>")
             $("#user-food").append(recipeBlock);
             
-            var recipeName = $("<h3 class='recipe-name'>").text(recipeResponse.results[i].title);
+            var recipeName = $("<h4 class='recipe-name'>").text(recipeResponse.results[i].title);
             var recipePic = $("<img class='recipe-pic' src='https://spoonacular.com/recipeImages/" + recipeResponse.results[i].id + "-556x370.jpg'>");
             var recipeDuration = $("<p class='recipe-paragraph'>").text("Ready in: " + recipeResponse.results[i].readyInMinutes +" min");
             var recipeServings = $("<p class='recipe-paragraph'>").text("Servings: " + recipeResponse.results[i].servings);
