@@ -11,9 +11,13 @@ h3 {
    color: #D90416;
 }
 
+h4 {
+   font-size: 2.25rem;
+}
+
 p, a {
    font-family: 'Roboto Slab', serif;
-   font-size: 2rem;
+   font-size: 1.75rem;
    color: black;
 }
 
@@ -22,7 +26,7 @@ nav {
    height: 8rem;
    background-color: #D90416;
    color: #F2F2F2;
-   position: fixed;
+   /* position: fixed; */
 }
 
 .nav-wrapper {
@@ -40,10 +44,21 @@ nav {
    padding: 1rem 3rem;
 }
 
+.sidenav /*menu*/ {
+   grid-column-start: 2;
+   grid-column-end: span 1;
+   justify-self: flex-end;
+}
+
 .menu {
    grid-column-start: 2;
    grid-column-end: span 1;
    justify-self: flex-end;
+}
+
+.menu a {
+   font-size: 2rem;
+   padding: 0.8rem 3rem;
 }
 
 #nav-mobile {
@@ -64,17 +79,20 @@ nav {
    background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
+   margin-top: 0.3rem;
 }
 
 #col2 {
    height: auto;
    padding: 2rem;
+   margin-top: 0.3rem;
 }
 
 #col3 {
    background-color: rgb(240, 233, 214);
    height: auto;
    padding: 2rem;
+   margin-top: 0.3rem;
 }
 
 
@@ -197,6 +215,7 @@ nav {
 }
 
 .drink-ingred p {
+   font-size: 1.5rem;
    margin: 0;
 }
 

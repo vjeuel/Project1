@@ -3,7 +3,7 @@ $(document).ready(function () {
       url: "https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=65eddf7bd02743019b3e480bbe667a94",
       method: "GET"
    }).then(function (newsResponse) {
-      for (let i = 0; i < 11; i++) {
+      for (let i = 0; i < 8; i++) {
          var newsBlock = $("<div id='news-block'>");
          $("#news").append(newsBlock);
 
