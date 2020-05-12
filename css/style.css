@@ -237,8 +237,8 @@ footer a {
    color: #F2F2F2;
 }
 
-#credits {
-   padding-left: 5rem;
+#credits, #connect, #links {
+   padding: 0 4rem;
 }
 
 #credits h3, #connect h3, #links h3 {
