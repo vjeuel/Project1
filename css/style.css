@@ -7,6 +7,10 @@ h1, h2, h3, h4 {
    line-height: 1.5;
 }
 
+h3 {
+   color: #D90416;
+}
+
 p, a {
    font-family: 'Roboto Slab', serif;
    font-size: 2rem;
@@ -168,19 +172,6 @@ nav {
 }
 
 /***************** FOOTER *****************/
-.page-footer {
-   background-color: #D90416;
-   color: #F2F2F2;
-}
-
-#credits {
-   padding-left: 5rem;
-}
-
-#credits h3 {
-   font-size: 2.25rem;
-}
-
 footer p {
    font-size: 1.5rem;
    color: #f2f2f2;
@@ -191,6 +182,31 @@ footer a {
    color: #F2B705;
    display: block;
    margin-bottom: 1rem;
+}
+
+.page-footer {
+   background-color: #D90416;
+   color: #F2F2F2;
+}
+
+#credits {
+   padding-left: 5rem;
+}
+
+#credits h3, #connect h3, #links h3 {
+   color: #F2F2F2;
+   font-size: 2.25rem;
+}
+
+#connect-box {
+   display: grid;
+   grid-template-columns: repeat(4, 4rem);
+
+}
+
+
+.social-icons svg {
+   color: #F2F2F2;
 }
 
 .copyright {

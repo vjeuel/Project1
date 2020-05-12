@@ -38,7 +38,7 @@ $(document).ready(function () {
             });
                      
             
-            var drinkName = $("<h3 class='drink-name'>").text(drinksResponse.drinks[i].strDrink);
+            var drinkName = $("<h4 class='drink-name'>").text(drinksResponse.drinks[i].strDrink);
             var drinkPic = $("<img class='drink-pic'>").attr("src", drinksResponse.drinks[i].strDrinkThumb);
             var drinkIngred = $("<p class='drink-ingred'>").text("Ingredients:");
             
