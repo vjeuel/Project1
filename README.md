@@ -4,7 +4,11 @@
 
 ## **Project Description**
   
- Hungry at home provides users the ability to search recipes based on what type of food they have in mind. The website enables users to search their favorite type of alcohol & drink recipes that are generated with the users' favorite alcohol. We decided to include a news section due to the outbreak of Covid-19. There has been a large amount of false information circulating social media & believe that providing reliably sourced news articles would benefit the user. 
+
+ Hungry at home provides users the ability to search recipes based on what type of food they have in mind.
+ The website enables users to search their favorite type of alcohol & drink recipes that are generated with the users' favorite alcohol.
+ We decided to include a news section due to the outbreak of Covid-19. There has been a large amount of false information circulating 
+ social media & believe that providing reliably sourced news articles would benefit the user. 
 
 _______
 
@@ -28,3 +32,11 @@ In the center, you can find where to search for recipes based on what food is on
 - Spoonacular API
 - NewsApi
 - TheCocktailDB API 
+=======
+
+I want the ability to find food and drink recommendations as well as US health news,
+
+
+So that I can learn to make good food, drink recipes, and stay informed as possible during the Coronavirus outbreak.
+________
+
