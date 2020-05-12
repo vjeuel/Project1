@@ -1,4 +1,4 @@
-[<img src="https://github.com/aresx2009/Project1/blob/vjeuel-1/images/hungry-logo-banner.jpg">](https://aresx2009.github.io/Project1)
+[<img src="https://github.com/aresx2009/Project1/blob/master/images/hungry-logo-banner.jpg">](https://aresx2009.github.io/Project1)
 
 
 # **Healthy Quarantine Recipes**
