@@ -1,4 +1,6 @@
 $(document).ready(function () {
+   $(".dropdown-trigger").dropdown();
+        
    chooseRecipe("pizza");
 
    function chooseRecipe(recipe) {
@@ -29,4 +31,8 @@ $(document).ready(function () {
       event.preventDefault()
       chooseRecipe(recipe);
    });
+
+     $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
 });

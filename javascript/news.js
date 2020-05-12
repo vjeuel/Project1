@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+   
+   
    $.ajax({
       url: "http://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=65eddf7bd02743019b3e480bbe667a94",
       method: "GET"
@@ -14,9 +15,11 @@ $(document).ready(function () {
          // var articleContent = newsResponse.articles[i].content.replace(/\[.*?\]/g, "")
          // var newsContent = $("<p class='news-content'>").text(articleContent);
          var newsUrl = $("<a class='news-url' href=" + newsResponse.articles[i].url + " target='_blank'>").text("read more here");
-
+         
          newsBlock.append(newsTitle, newsSource, newsImage, newsUrl);
          console.log(newsResponse);
+         // newsImage:not[src=""].show();
+         // newsImage[src=""].hide();
       }
    });
 });
