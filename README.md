@@ -1,14 +1,30 @@
 
-# **Healthy Quarantine Recipes**
+# **Food & Drink Quarantine Recipes**
 
 
 ## **Project Description**
   
-  An application that surfs the web for healthy home-made recipes for your COVID-19 quarantine. 
+ Hungry at home provides users the ability to search recipes based on what type of food they have in mind. The website enables users to search their favorite type of alcohol & drink recipes that are generated with the users' favorite alcohol. We decided to include a news section due to the outbreak of Covid-19. There has been a large amount of false information circulating social media & believe that providing reliably sourced news articles would benefit the user. 
+
+_______
+
+## **User Story: 
+
+As a user, 
+
+I want the ability to find food and alcoholic drink recipes as well reliable US related Covid-19 news. 
+
+So that I can learn to make what I crave while at home & stay informed as possible during the Coronavirus outbreak. 
+
+_______
+
+## **Instructions: 
+
+In the center, you can find where to search for recipes based on what food is on your mind and press "Search". You will be provided with 5 recipes to pick. The same concept follows for the drink column on the right; enter your favorite alcohol and drink recipes that will be generated for you. The US health news is automatically generated & required no user action. 
 
 
-As a user,
+## **Credits: 
 
-I want to make healthy meals, 
-
-So that I can eat well throughout the Corona Virus quarantine. 
+- Spoonacular API
+- NewsApi
+- TheCocktailDB API 
