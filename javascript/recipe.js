@@ -1,5 +1,6 @@
 $(document).ready(function () {
    $(".dropdown-trigger").dropdown();
+   $(".sidenav").sidenav();
         
    chooseRecipe("pizza");
 
@@ -12,7 +13,7 @@ $(document).ready(function () {
          url: "https://api.spoonacular.com/recipes/search?query=" + recipe + "&number=8&apiKey=e899cd57c3b04896adcb0dfa4fbcfd9d",
          method: "GET"
       }).then(function (recipeResponse) {
-         for (let i = 0; i < 8; i++) {
+         for (let i = 0; i < 7; i++) {
             var recipeBlock = $("<div id='recipe-block'>")
             $("#user-food").append(recipeBlock);
             
@@ -32,7 +33,4 @@ $(document).ready(function () {
       chooseRecipe(recipe);
    });
 
-     $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
 });
