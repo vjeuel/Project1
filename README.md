@@ -1,4 +1,4 @@
-[<img src="https://github.com/aresx2009/Project1/blob/vjeuel-1/images/Screen%20Shot%202020-05-12%20at%2012.35.51%20AM.png"](images/Screen%20Shot%202020-05-12%20at%2012.35.51%20AM.png)
+[<img src="https://github.com/aresx2009/Project1/blob/vjeuel-1/images/Screen%20Shot%202020-05-12%20at%2012.35.51%20AM.png">](https://aresx2009.github.io/Project1)
 
 
 # **Healthy Quarantine Recipes**
