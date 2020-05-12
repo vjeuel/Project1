@@ -23,7 +23,6 @@ $(document).ready(function () {
                            drinksResponse.drinks[i].strIngredient11, drinksResponse.drinks[i].strIngredient12,
                            drinksResponse.drinks[i].strIngredient13, drinksResponse.drinks[i].strIngredient14,
                            drinksResponse.drinks[i].strIngredient15].filter(function(emptyIngred) {
-                  
                   return emptyIngred !== null;
                });
             
