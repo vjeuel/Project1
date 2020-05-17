@@ -1,0 +1,297 @@
+html {
+   font-size: 10px;
+}
+
+h1, h2, h3, h4 {
+   font-family: 'Merriweather', serif;
+   line-height: 1.5;
+}
+
+h3 {
+   color: #D90416;
+}
+
+h4 {
+   font-size: 2.25rem;
+}
+
+p, a {
+   font-family: 'Roboto Slab', serif;
+   font-size: 1.75rem;
+   color: black;
+}
+
+/***************** NAV *****************/
+nav {
+   height: 8rem;
+   background-color: #D90416;
+   color: #F2F2F2;
+   /* position: fixed; */
+}
+
+.nav-wrapper {
+   display: grid;
+   grid-template-columns: 30% 70%;
+}
+
+.sidenav {
+   justify-self: flex-end;
+}
+
+.brand-logo img {
+   height: 8rem;
+   position: unset;
+   padding: 1rem 3rem;
+}
+
+.sidenav /*menu*/ {
+   grid-column-start: 2;
+   grid-column-end: span 1;
+   justify-self: flex-end;
+}
+
+.menu {
+   grid-column-start: 2;
+   grid-column-end: span 1;
+   justify-self: flex-end;
+}
+
+.menu a {
+   font-size: 2rem;
+   padding: 0.8rem 3rem;
+}
+
+#nav-mobile {
+   margin-right: 2rem;
+}
+
+#nav-mobile a {
+   height: 8rem;
+   font-size: 1.5rem;
+   padding: 0 3rem;
+}
+
+/***************** MAIN *****************/
+.row {
+   margin-bottom: 0;
+}
+#col1 {
+   background-color: rgb(240, 233, 214);
+   height: auto;
+   padding: 2rem;
+   margin-top: 0.3rem;
+}
+
+#col2 {
+   height: auto;
+   padding: 2rem;
+   margin-top: 0.3rem;
+}
+
+#col3 {
+   background-color: rgb(240, 233, 214);
+   height: auto;
+   padding: 2rem;
+   margin-top: 0.3rem;
+}
+
+
+/***************** NEWS *****************/
+#news-block {
+   border-bottom: #F2B705 2px solid;
+   padding-bottom: 2rem;
+}
+
+#news-block:nth-last-child(1) {
+   border-bottom: none;
+}
+
+.news-source {
+   font-size: 1.25rem;
+   font-style: italic;
+}
+
+.news-pic {
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
+.news-url {
+   color: #D90416;
+   font-size: 1.5rem;
+}
+
+/***************** RECIPES *****************/
+#search-food {
+   display: grid;
+   grid-template-columns: 60% 40%;
+   grid-gap: 2rem;
+   padding: 0.5rem;
+   border: #D90416 solid 2px;
+   border-radius: 2rem;
+
+}
+
+#search-food input {
+   margin-left: 2rem;
+   border-bottom: none;
+}
+
+#search-food input::placeholder {
+   color: #D90416;
+   opacity: 0.25;
+}
+
+#search-food button {
+   background-color: #D90416;
+   border-radius: 2rem;
+   margin-right: 2rem;
+}
+
+#recipe-block {
+   border-bottom: #F2B705 2px solid;
+   padding-bottom: 2rem;
+}
+
+#recipe-block:nth-last-child(1) {
+   border-bottom: none;
+}
+
+.recipe-pic {
+   width: 100%;
+}
+
+.recipe-link {
+   color: #D90416;
+   font-size: 1.5rem;
+}
+
+
+/***************** DRINKS *****************/
+#col3 h3 {
+   margin-bottom: 1rem;
+}
+
+#col3 img {
+   width: 100%;
+}
+
+#search-drink {
+   display: grid;
+   grid-template-columns: 40% 60%;
+   grid-gap: 2rem;
+   padding: 0.5rem;
+   border: #D90416 solid 2px;
+   border-radius: 2rem;
+}
+
+#search-drink input {
+   margin-left: 2rem;
+   border-bottom: none;
+}
+
+#search-drink input::placeholder {
+   color: #D90416;
+   opacity: 0.25;
+}
+
+#search-drink button {
+   background-color: #D90416;
+   border-radius: 2rem;
+   margin-right: 2rem;
+}
+
+#drink-block {
+   border-bottom: #D90416 2px solid;
+}
+
+#drink-block:nth-last-child(1) {
+   border-bottom: none;
+}
+
+#search-drink button {
+   background-color: #D90416;
+   border-radius: 2rem;
+}
+
+.drink-ingred p {
+   font-size: 1.5rem;
+   margin: 0;
+}
+
+/***************** FOOTER *****************/
+footer p {
+   font-size: 1.5rem;
+   color: #f2f2f2;
+}
+
+footer a {
+   font-size: 1.5rem;
+   color: #F2B705;
+   display: block;
+   margin-bottom: 1rem;
+}
+
+.page-footer {
+   background-color: #D90416;
+   color: #F2F2F2;
+}
+
+#credits, #connect, #links {
+   padding: 0 4rem;
+}
+
+#credits h3, #connect h3, #links h3 {
+   color: #F2F2F2;
+   font-size: 2.25rem;
+}
+
+#connect-box {
+   display: grid;
+   grid-template-columns: repeat(4, 4rem);
+   
+}
+
+.social-icons img {
+   width: 3rem;
+}
+
+.copyright {
+   width: 100%;
+   margin: 0 auto;
+}
+.copyright p {
+   text-align: center;
+   font-size: 1.25rem;
+}
+
+
+/***************** MEDIA QUERY *****************/
+@media (max-width: 992px) {
+   .menu {
+      display: none;
+   }
+}
+
+
+
+/* FONTS */
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;
+*/
+
+/* COLORS */
+/* Color Theme Swatches in Hex */
+.Row-of-ice-cream-scoops-1-hex { color: #D90416; }
+.Row-of-ice-cream-scoops-2-hex { color: #F2B705; }
+.Row-of-ice-cream-scoops-3-hex { color: #D98E04; }
+.Row-of-ice-cream-scoops-4-hex { color: #F25C05; }
+.Row-of-ice-cream-scoops-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.Row-of-ice-cream-scoops-1-rgba { color: rgba(216, 4, 22, 1); }
+.Row-of-ice-cream-scoops-2-rgba { color: rgba(242, 182, 4, 1); }
+.Row-of-ice-cream-scoops-3-rgba { color: rgba(216, 142, 4, 1); }
+.Row-of-ice-cream-scoops-4-rgba { color: rgba(242, 91, 4, 1); }
+.Row-of-ice-cream-scoops-5-rgba { color: rgba(242, 242, 242, 1); }
