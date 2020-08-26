@@ -1,8 +1,8 @@
-[<img src="https://github.com/aresx2009/Project1/blob/master/images/hungry-logo-banner.jpg">](https://aresx2009.github.io/Project1)
+[<img src="https://github.com/aresx2009/Project1/blob/master/images/hungry-logo-banner.jpg">](https://vjeuel.github.io/food_api_app/)
 
 
 # **Healthy Quarantine Recipes**
-Find the link for our website [here](https://aresx2009.github.io/Project1/)
+Find the link for our website [here](https://vjeuel.github.io/food_api_app/)
 
 
 ## **Project Description**
